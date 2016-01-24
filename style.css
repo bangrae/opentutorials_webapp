@@ -7,29 +7,14 @@ body.black{
   color:white;
 }
 
-header{
-  border-bottom:1px solid gray;
-  padding:20px;
+#logo {
+  width: 100px;
 }
-nav {
-  border-right:1px solid gray;
-  width:200px;
-  height:600px;
-  float:left;
+
+.container {
+  padding-top: 20px;
 }
-nav ol{
-  list-style:none;
-  padding:0;
-}
-article{
-  float:left;
-  padding:20px;
-  width:500px;
-}
-#control{
-  float:right;
-}
-header img{
-  float:right;
-  height:100px;
+
+#control {
+  margin-bottom: 20px;
 }
