@@ -2,8 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8080/opentutorials_webapp/style.css">
 </head>
-<body>
+<body id="target">
   <header>
     <h1><a href="http://localhost:8080/opentutorials_webapp/">JavaScript</a></h1>
   </header>
@@ -14,6 +15,10 @@
       <li><a href="http://localhost:8080/opentutorials_webapp/page_op.html">연산자</a></li>
     </ol>
   </nav>
+    <div id="control">
+        <input type="button" value="white" onclick="document.getElementById('target').className='white'" />
+        <input type="button" value="black" onclick="document.getElementById('target').className='black'" />
+    </div>   
   <article>
     <h2>JavaScript란?</h2>
     JavaScript는 웹페이지를 프로그래밍적으로 제어하는 언어입니다.
